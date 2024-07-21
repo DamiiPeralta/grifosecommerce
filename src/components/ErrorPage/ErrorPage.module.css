@@ -1,0 +1,20 @@
+.errorPageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa; /* Fondo claro */
+}
+
+.errorPageContainer h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #343a40; /* Texto oscuro */
+}
+
+.errorPageContainer p {
+    font-size: 1.5rem;
+    color: #6c757d; /* Texto secundario */
+}

@@ -1,0 +1,67 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Ajusta según el ancho de la barra */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.open {
+    right: 0;
+}
+
+.liCustom {
+    border: solid 1px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.toggleButton {
+    position: fixed; /* Cambiar a fixed para que siempre sea visible */
+    top: 10px;
+    right: 10px; /* Ajusta según el diseño */
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001; /* Asegura que el botón esté encima de otros elementos */
+}
+
+.cartContent {
+    padding: 20px;
+}
+
+.cartImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.total {
+    margin-top: auto;
+    font-weight: bold;
+}
+
+.quantityControls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quantityControls button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

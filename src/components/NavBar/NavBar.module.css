@@ -1,0 +1,52 @@
+.navbarCustom {/* Espacio entre el navbar y la parte superior */
+}
+
+.navbarCustom .navbarBrandCustom {
+    /* Estilos personalizados para el logo de la marca */
+}
+
+.navbarCustom .navLinkCustom {
+    /* Estilos personalizados para los enlaces de navegación */
+    margin-right: 0.5rem; /* Reducir margen derecho a los enlaces */
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+}
+
+@media (max-width: 768px) {
+    .navbarCustom .navLinkCustom {
+        margin-right: 0; /* Remover margen derecho en pantallas pequeñas */
+    }
+}
+
+.navbarCustom .logo {
+    height: 40px; /* Reducir tamaño del logo */
+}
+
+.navbarCustom .customButton {
+    padding: 0.25rem 0.5rem; /* Ajustar padding para hacer el botón más pequeño */
+    font-size: 0.75rem; /* Ajustar el tamaño de la fuente */
+    margin-left: 0.5rem; /* Añadir margen izquierdo */
+}
+
+.navbarCustom .authButtons {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem; /* Añadir margen izquierdo a los botones de autenticación */
+}
+
+.navbarCustom .searchForm {
+    display: flex;
+    align-items: center;
+    
+    margin-left: auto; /* Asegurar que el formulario de búsqueda esté a la derecha */
+}
+
+.navbarCustom .searchInput {
+    margin-top: 10px;
+    font-size: 0.75rem; /* Reducir tamaño de la fuente del input de búsqueda */
+}
+
+.navbarCustom .searchButton {
+    padding: 0.25rem 0.5rem; /* Ajustar padding para hacer el botón más pequeño */
+    font-size: 0.75rem; /* Ajustar el tamaño de la fuente */
+    margin-left: 0.5rem; /* Añadir margen izquierdo */
+}

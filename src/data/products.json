@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "name": "Producto 1",
+        "description": "Descripción del producto 1",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/161106608_10217681478578045_8221350179983483957_n.jpg?stp=dst-jpg_s960x960&_nc_cat=110&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=QzkB-s7iWxAQ7kNvgHQxkd3&_nc_ht=scontent.fepa8-1.fna&oh=00_AYDDLr3q9njAyviehDDIv2YnYz_D4xPwHB15Lnkc9LmQsw&oe=66BE3519",
+        "model": "Alegra"
+    },
+    {
+        "id": 2,
+        "name": "Producto 1",
+        "description": "Descripción del producto 1",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Alegra"
+    },
+    {
+        "id": 3,
+        "name": "Producto 1",
+        "description": "Descripción del producto 1",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160623839_10217681481378115_3743975083049166048_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=XI_5Hb1jWyYQ7kNvgEToE__&_nc_ht=scontent.fepa8-1.fna&oh=00_AYBXZxNhQIqmvzPUPHfYnOsnQLkL4vegi0OMwAAyYXzLqg&oe=66BE48EC",
+        "model": "Alegra"
+    },
+    {
+        "id": 4,
+        "name": "Producto 1",
+        "description": "Descripción del producto 1",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Alegra"
+    },
+    {
+        "id": 5,
+        "name": "Producto 2",
+        "description": "Descripción del producto 2",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Cruz"
+    },
+    {
+        "id": 6,
+        "name": "Producto 2",
+        "description": "Descripción del producto 2",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Cruz"
+    },
+    {
+        "id": 7,
+        "name": "Producto 2",
+        "description": "Descripción del producto 2",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Cruz"
+    },
+    {
+        "id": 8,
+        "name": "Producto 2",
+        "description": "Descripción del producto 2",
+        "price": 100,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Cruz"
+    },
+    {
+        "id": 9,
+        "name": "Producto 3",
+        "description": "Descripción del producto 3",
+        "price": 150,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Accesorios"
+    },
+    {
+        "id": 10,
+        "name": "Producto 3",
+        "description": "Descripción del producto 3",
+        "price": 150,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Accesorios"
+    },
+    {
+        "id": 11,
+        "name": "Producto 3",
+        "description": "Descripción del producto 3",
+        "price": 150,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Accesorios"
+    },
+    {
+        "id": 12,
+        "name": "Producto 3",
+        "description": "Descripción del producto 3",
+        "price": 150,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Accesorios"
+    },
+    {
+        "id": 13,
+        "name": "Producto 4",
+        "description": "Descripción del producto 4",
+        "price": 250,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Monocomandos"
+    },
+    {
+        "id": 14,
+        "name": "Producto 4",
+        "description": "Descripción del producto 4",
+        "price": 250,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Monocomandos"
+    },
+    {
+        "id": 15,
+        "name": "Producto 4",
+        "description": "Descripción del producto 4",
+        "price": 250,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Monocomandos"
+    },
+    {
+        "id": 16,
+        "name": "Producto 4",
+        "description": "Descripción del producto 4",
+        "price": 250,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Monocomandos"
+    },
+    {
+        "id": 17,
+        "name": "Producto 5",
+        "description": "Descripción del producto 5",
+        "price": 300,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Mesada cocina"
+    },
+    {
+        "id": 18,
+        "name": "Producto 5",
+        "description": "Descripción del producto 5",
+        "price": 300,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Mesada cocina"
+    },
+    {
+        "id": 19,
+        "name": "Producto 5",
+        "description": "Descripción del producto 5",
+        "price": 300,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Mesada cocina"
+    },
+    {
+        "id": 20,
+        "name": "Producto 5",
+        "description": "Descripción del producto 5",
+        "price": 300,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Mesada cocina"
+    },
+    {
+        "id": 21,
+        "name": "Producto 5",
+        "description": "Descripción del producto 5",
+        "price": 300,
+        "type":"Cocina",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Mesada cocina"
+    },
+    {
+        "id": 22,
+        "name": "Mueble 1",
+        "description": "Descripción del mueble 1",
+        "price": 300,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Vanitory"
+    },
+    {
+        "id": 23,
+        "name": "Mueble 2",
+        "description": "Descripción del mueble 2",
+        "price": 300,
+        "type":"Baño",
+        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
+        "model": "Vanitory"
+    }
+]

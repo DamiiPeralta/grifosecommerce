@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    font-size: 16px;
+}
