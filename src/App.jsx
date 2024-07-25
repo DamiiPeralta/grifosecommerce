@@ -25,11 +25,16 @@ import SidebarCart from './components/SidebarCart/SidebarCart';
 import CarouselBanner from './components/CarouselBanner/CarouselBanner';
 import BannerDeliver from './components/BannerDeliver/BannerDeliver';
 import SessionManager from './components/SessionManager/SessionManager';
+import TypeProductList from './components/TypeProductList/TypeProductList';
+import products from './data/products.json';
 
 Modal.setAppElement('#root');
 
 
 function App() {
+  const accesoriosProducts = products.filter(product => product.model.toLowerCase() === 'accesorios');
+  const mueblesProducts = products.filter(product => product.model === 'Muebles');
+  console.log(mueblesProducts)
   return (
     <div className="App">
       <Provider store={store}>
@@ -48,11 +53,10 @@ function App() {
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/search" element={<ProductSearch />} />
-            <Route path="/alegra" element={<ProductList model="Alegra" />} />
-            <Route path="/cruz" element={<ProductList model="Cruz" />} />
-            <Route path="/accesorios" element={<ProductList model="Accesorios" />} />
-            <Route path="/monocomandos" element={<ProductList model="Monocomandos" />} />
-            <Route path="/mesada-cocina" element={<ProductList model="Mesada Cocina" />} />
+            <Route path="/muebles" element={<ProductList model="Muebles" products={mueblesProducts} />} />
+            <Route path="/accesorios" element={<ProductList model="Accesorios" products={accesoriosProducts} />} />
+            <Route path="/bano" element={<TypeProductList type="Baño" />} />
+            <Route path="/cocina" element={<TypeProductList type="Cocina" />} />
             <Route path='*' element={<ErrorPage />} />
         
       </Routes>

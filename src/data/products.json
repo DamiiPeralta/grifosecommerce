@@ -195,7 +195,7 @@
         "price": 300,
         "type":"Baño",
         "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
-        "model": "Vanitory"
+        "model": "Muebles"
     },
     {
         "id": 23,
@@ -204,6 +204,6 @@
         "price": 300,
         "type":"Baño",
         "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/160792402_10217681487738274_1847327743854429559_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=E3s-Sp-SarMQ7kNvgFWvECz&_nc_ht=scontent.fepa8-1.fna&oh=00_AYAK1NMqaqL3KQLCS5wWSTY6ptbCmktMiSTBqw3BOIC7YQ&oe=66BE2BC3",
-        "model": "Vanitory"
+        "model": "Muebles"
     }
 ]

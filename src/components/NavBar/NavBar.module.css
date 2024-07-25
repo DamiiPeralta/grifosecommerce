@@ -43,6 +43,8 @@
 .navbarCustom .searchInput {
     margin-top: 10px;
     font-size: 0.75rem; /* Reducir tamaño de la fuente del input de búsqueda */
+    width: 300px;
+    height: 31px;
 }
 
 .navbarCustom .searchButton {

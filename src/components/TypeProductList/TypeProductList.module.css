@@ -1,0 +1,17 @@
+/* src/components/TypeProductList/TypeProductList.module.css */
+.typeProductList {
+    padding: 20px;
+}
+
+.typeProductList h1 {
+    text-align: center;
+}
+
+.typeProductList > div {
+    margin-bottom: 40px;
+}
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}

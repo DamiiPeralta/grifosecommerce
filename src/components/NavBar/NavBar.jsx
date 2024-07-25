@@ -40,20 +40,17 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <LinkContainer to="/alegra">
-                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Alegra</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/cruz">
-                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Cruz</Nav.Link>
+                        <LinkContainer to="/muebles">
+                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Muebles</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/accesorios">
                             <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Accesorios</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/monocomandos">
-                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Monocomandos</Nav.Link>
+                        <LinkContainer to="/bano">
+                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Baño</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/mesada-cocina">
-                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Mesada Cocina</Nav.Link>
+                        <LinkContainer to="/cocina">
+                            <Nav.Link onClick={() => setExpanded(false)} className={styles.navLinkCustom}>Cocina</Nav.Link>
                         </LinkContainer>
                     </Nav>
                     <Form className={`d-flex ${styles.searchForm}`} onSubmit={handleSearch}>

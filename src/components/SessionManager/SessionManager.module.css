@@ -6,12 +6,3 @@
 .sessionManager h2 {
     margin-bottom: 1rem;
 }
-
-.sessionManager button {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    background-color: #dc3545;
-    color: white;
-    cursor: pointer;
-}
