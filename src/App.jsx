@@ -24,7 +24,7 @@ import Cart from './components/Cart/Cart';
 import SidebarCart from './components/SidebarCart/SidebarCart';
 import CarouselBanner from './components/CarouselBanner/CarouselBanner';
 import BannerDeliver from './components/BannerDeliver/BannerDeliver';
-
+import SessionManager from './components/SessionManager/SessionManager';
 
 Modal.setAppElement('#root');
 
@@ -41,7 +41,7 @@ function App() {
         
             <Route path="/" element={<Home  />} />
             <Route path="/dashboardadmin" element={<DashboardAdmin />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" element={<SessionManager />} />
             <Route path="/register" element={<Register />} />
             <Route path="/createproduct" element={<CreateProduct />} />
             <Route path="/modifyproduct" element={<ModifyProduct />} />

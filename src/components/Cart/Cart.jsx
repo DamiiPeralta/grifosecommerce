@@ -29,7 +29,10 @@ const Cart = () => {
     };
 
     const addCartItems = (cartItems) => {
-        const addItems = [];
+        //const itemToAdd = localStorage.getItem("cart");
+        const addItems = [] //aca estoy trayendo lo del localstorage ahora
+
+        //const addItems = JSON.parse(itemToAdd);
         const itemMap = new Map();
 
         cartItems.forEach((item) => {

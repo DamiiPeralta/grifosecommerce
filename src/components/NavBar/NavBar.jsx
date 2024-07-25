@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Form, FormControl, Button, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
@@ -8,13 +8,27 @@ import logo from '../../assets/GGrifos.png';
 const NavBar = () => {
     const [expanded, setExpanded] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
+    const [user, setUser] = useState(null);
     const navigate = useNavigate();
+
+    useEffect(() => {
+        const storedUser = localStorage.getItem('user');
+        if (storedUser) {
+            setUser(JSON.parse(storedUser));
+        }
+    }, []);
 
     const handleSearch = (e) => {
         e.preventDefault();
         if (searchTerm.trim() !== '') {
             navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
         }
+    };
+
+    const handleLogout = () => {
+        localStorage.removeItem('user');
+        setUser(null);
+        navigate('/');
     };
 
     return (
@@ -50,15 +64,24 @@ const NavBar = () => {
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                         />
-                        <Button variant="outline-light" className={`${styles.searchButton}`} >Buscar</Button>
+                        <Button variant="outline-light" className={`${styles.searchButton}`}>Buscar</Button>
                     </Form>
                     <div className={styles.authButtons}>
-                        <Link to="/login">
-                            <Button variant="outline-light" className={styles.customButton}>Iniciar Sesión</Button>
-                        </Link>
-                        <Link to="/register">
-                            <Button variant="outline-light" className={styles.customButton}>Registrarse</Button>
-                        </Link>
+                        {user ? (
+                                <>
+                                    <p className={styles.username}>{user.username}</p>
+                                    <Button variant="outline-light" onClick={handleLogout} className={styles.customButton}>Cerrar Sesión</Button>
+                                </>
+                            ) : (
+                                <>
+                                    <Link to="/login">
+                                        <Button variant="outline-light" className={styles.customButton}>Iniciar Sesión</Button>
+                                    </Link>
+                                    <Link to="/register">
+                                        <Button variant="outline-light" className={styles.customButton}>Registrarse</Button>
+                                    </Link>
+                                </>
+                            )}
                     </div>
                 </Navbar.Collapse>
             </Container>

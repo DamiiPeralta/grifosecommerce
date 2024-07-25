@@ -6,17 +6,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
 
 const ProductCard = ({ product }) => {
+
+
     const dispatch = useDispatch();
     const cart = useSelector((state) => state.cart.cart);
-
-
+    
     const handleAddToCart = () => {
-        dispatch(addToCart(product)); // Muestra el estado del carrito después de añadir el producto
+        const cartData = localStorage.getItem("cart");
+        const parsedData = JSON.parse(cartData);
+        alert(parsedData);
+        let cartstring = JSON.stringify(product);
+        
+        localStorage.setItem("cart", cartstring);
+        dispatch(addToCart(product));
     };
-    //Funcion para revisar el estado del carrito
-    //useEffect(() => {
-    //    console.log('Estado del carrito:', cart);
-    //}, [cart]); 
+
     return (
         <div className={styles.card}>
             <Link 

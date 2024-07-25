@@ -50,3 +50,9 @@
     font-size: 0.75rem; /* Ajustar el tamaño de la fuente */
     margin-left: 0.5rem; /* Añadir margen izquierdo */
 }
+
+.username {
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
