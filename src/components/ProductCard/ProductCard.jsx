@@ -14,7 +14,6 @@ const ProductCard = ({ product }) => {
     const handleAddToCart = () => {
         const cartData = localStorage.getItem("cart");
         const parsedData = JSON.parse(cartData);
-        alert(parsedData);
         let cartstring = JSON.stringify(product);
         
         localStorage.setItem("cart", cartstring);

@@ -1,12 +1,17 @@
 [
     {
         "id": 1,
-        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/161724325_10217681481578120_5435635511254451000_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=VTT0arazRRMQ7kNvgFXesdv&_nc_ht=scontent.fepa8-1.fna&oh=00_AYA6Qopz5IzQV7pTYgISUeDXg2cNpA7zAXlZP1Q8SM16Pw&oe=66BE4122",
-        "text": "Este es un texto descriptivo sobre la imagen 1."
+        "image": "/src/assets/Icons/Carrito.png",
+        "text": "Para hacer una compra simplemente elige los productos que quieras y selecciona Comprar desde el carrito y desde ahi se genera una orden de compra directamente al area de Whatsapp con el area de ventas"
     },
     {
         "id": 2,
-        "image": "https://scontent.fepa8-1.fna.fbcdn.net/v/t1.6435-9/161724325_10217681481578120_5435635511254451000_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=f7fc3c&_nc_ohc=VTT0arazRRMQ7kNvgFXesdv&_nc_ht=scontent.fepa8-1.fna&oh=00_AYA6Qopz5IzQV7pTYgISUeDXg2cNpA7zAXlZP1Q8SM16Pw&oe=66BE4122",
-        "text": "Este es un texto descriptivo sobre la imagen 2."
+        "image": "/src/assets/Icons/Carrito.png",
+        "text": "En el area de ventas se confirma la compra y stock, se dan los detalles del envio."
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/Icons/Carrito.png",
+        "text": "El costo de envio varia segun la zona y se concreta por Whatsapp a disponibilidad de la Empresa"
     }
 ]

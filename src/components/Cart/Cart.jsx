@@ -1,12 +1,14 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, addToCart, removeAllFromCart } from '../../reducers/cartReducer';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './Cart.module.css';
 
 const Cart = () => {
     const cart = useSelector(state => state.cart.cartItems) || [];
+    const user = useSelector(state => state.user); // Asumiendo que tienes un estado de usuario en tu store
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleIncreaseQuantity = (item) => {
         dispatch(addToCart(item));
@@ -29,10 +31,7 @@ const Cart = () => {
     };
 
     const addCartItems = (cartItems) => {
-        //const itemToAdd = localStorage.getItem("cart");
-        const addItems = [] //aca estoy trayendo lo del localstorage ahora
-
-        //const addItems = JSON.parse(itemToAdd);
+        const addItems = [];
         const itemMap = new Map();
 
         cartItems.forEach((item) => {
@@ -48,6 +47,14 @@ const Cart = () => {
     };
 
     const addCart = addCartItems(cart);
+
+    const handleCheckout = () => {
+        if (user.isLoggedIn) {
+            navigate('/checkout');
+        } else {
+            navigate('/login');
+        }
+    };
 
     return (
         <div className="container my-4">
@@ -78,9 +85,7 @@ const Cart = () => {
             )}
             <div className="mt-4">
                 <h3>Total: ${calculateTotal()}</h3>
-                <Link to="/checkout">
-                    <button className="btn btn-outline-dark mt-2">Comprar</button>
-                </Link>
+                <button className="btn btn-outline-dark mt-2" onClick={handleCheckout}>Comprar</button>
             </div>
         </div>
     );

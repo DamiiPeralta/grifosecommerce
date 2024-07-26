@@ -23,7 +23,7 @@
 
 .toggleButton {
     position: fixed; /* Cambiar a fixed para que siempre sea visible */
-    top: 10px;
+    top: 100px;
     right: 10px; /* Ajusta según el diseño */
     width: 50px;
     height: 50px;
@@ -64,4 +64,8 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+.icon {
+    font-size: 1.rem;
+    width: 50px;
 }

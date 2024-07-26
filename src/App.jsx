@@ -27,6 +27,7 @@ import BannerDeliver from './components/BannerDeliver/BannerDeliver';
 import SessionManager from './components/SessionManager/SessionManager';
 import TypeProductList from './components/TypeProductList/TypeProductList';
 import products from './data/products.json';
+import Checkout from './views/Checkout/Checkout';
 
 Modal.setAppElement('#root');
 
@@ -57,6 +58,7 @@ function App() {
             <Route path="/accesorios" element={<ProductList model="Accesorios" products={accesoriosProducts} />} />
             <Route path="/bano" element={<TypeProductList type="Baño" />} />
             <Route path="/cocina" element={<TypeProductList type="Cocina" />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path='*' element={<ErrorPage />} />
         
       </Routes>

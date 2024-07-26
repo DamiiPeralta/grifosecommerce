@@ -2,8 +2,10 @@ import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, addToCart, removeAllFromCart } from '../../reducers/cartReducer';
 import { Link } from 'react-router-dom';
-import styles from './SidebarCart.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import cartIcon from '../../assets/Icons/Carrito.png';
+import closeIcon from '../../assets/Icons/Carrito.png'; // Asegúrate de tener esta imagen en tu proyecto
+import styles from './SidebarCart.module.css';
 
 const SidebarCart = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -50,8 +52,16 @@ const SidebarCart = () => {
 
     return (
         <div className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}>
-            <button className={styles.toggleButton} onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? 'Cerrar' : 'Carrito'}
+            <button 
+                className={styles.toggleButton} 
+                onClick={() => setIsOpen(!isOpen)}
+                aria-label={isOpen ? 'Cerrar carrito' : 'Abrir carrito'}
+            >
+                <img 
+                    src={isOpen ? closeIcon : cartIcon} 
+                    alt={isOpen ? 'Cerrar carrito' : 'Abrir carrito'}
+                    className={styles.icon}
+                />
             </button>
             {isOpen && (
                 <div className={styles.cartContent}>
